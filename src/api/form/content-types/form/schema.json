@@ -12,10 +12,12 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "maxLength": 20
     },
     "memo": {
-      "type": "text"
+      "type": "text",
+      "minLength": 10
     }
   }
 }
