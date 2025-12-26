@@ -18,6 +18,26 @@
     "memo": {
       "type": "text",
       "minLength": 10
+    },
+    "date": {
+      "type": "date",
+      "required": false,
+      "unique": false
+    },
+    "email": {
+      "type": "email"
+    },
+    "select": {
+      "type": "enumeration",
+      "enum": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ]
+    },
+    "password": {
+      "type": "password"
     }
   }
 }
